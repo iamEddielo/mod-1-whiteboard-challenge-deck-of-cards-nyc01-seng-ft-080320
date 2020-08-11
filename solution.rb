@@ -4,10 +4,11 @@ class Deck
 
     def initialize
         @cards = []
+    end
 
-def choose_card
-    @cards.delete_at(rand(@cards.length))
-end
+    def choose_card
+        @cards.delete_at(rand(@cards.length))
+    end
        
 
 end
